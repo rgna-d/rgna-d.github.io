@@ -1,0 +1,11 @@
+body {
+    background-color: cornflowerblue;
+    color: mintcream;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight:normal;
+    
+    h1 {font-weight: normal;}
+
+    p {color: midnightblue;}
+}
