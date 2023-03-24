@@ -1,0 +1,17 @@
+body{
+    background-color: palevioletred;
+    font-family: Arial;
+    color: floralwhite;
+}
+
+@font-face {
+    font-family: Evermore;
+    src: url("Evermore.woff");
+}
+
+h1{
+    font-family: 'Evermore';
+    color: floralwhite;
+    font-size: 60px;
+    text-align: center;
+}
