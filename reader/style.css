@@ -23,6 +23,13 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-family: 'Extraoin';
+    color: rgb(250, 22, 22);
+    font-size: 16px;
+    text-align: center;
+}
+
 h3{
     font-family: Arial;
     color: black;
