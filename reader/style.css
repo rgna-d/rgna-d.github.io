@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(135, 112, 148);
+    background-color: rgb(255, 255, 255);
     font-family: Arial;
     color: floralwhite;
 }
@@ -9,8 +9,13 @@ body{
     src: url("Evermore.woff");
 }
 
+@font-face {
+    font-family: Extraoin;
+    src: url("Extraoin\ Zhurdlyou\ Anarchy.woff");
+}
+
 h1{
-    font-family: 'Evermore';
+    font-family: 'Extraoin';
     color: floralwhite;
     font-size: 60px;
     text-align: center;
