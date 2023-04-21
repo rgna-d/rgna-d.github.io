@@ -2,7 +2,7 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: Arial;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -19,13 +19,25 @@ body{
 h1{
     font-family: 'Extraoin';
     color: rgb(250, 22, 22);
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
 h3{
     font-family: Arial;
     color: black;
-    font-size: 25px;
+    font-size: 14px;
     text-align: right;
 }
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 60%;
+  }
+  
+  .right {
+    width: 40%;
+  }
