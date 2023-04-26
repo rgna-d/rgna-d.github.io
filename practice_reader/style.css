@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: SpaceMonoRegular;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+
+@font-face {
+    font-family: Evermore;
+    src: url("Evermore.woff");
+}
+
+@font-face {
+    font-family: Extraoin;
+    src: url("Extraoin\ Zhurdlyou\ Anarchy.woff");
+}
+
+@font-face {
+    font-family: SpaceMonoRegular;
+    src: url("SpaceMono-Regular.woff");
+}
+
+h1{
+    font-family: 'Extraoin';
+    color: rgb(250, 22, 22);
+    font-size: 90px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Extraoin';
+    color: rgb(250, 22, 22);
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-family: SpaceMonoRegular;
+    color: black;
+    font-size: 17px;
+    text-align: right;
+}
+
+div{container;
+display: flex;
+flex-wrap: wrap;
+}
+div{column;
+flex: 1
+padding: 10px;
+}
