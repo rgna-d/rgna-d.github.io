@@ -47,6 +47,5 @@ display: flex;
 flex-wrap: wrap;
 }
 div.column { 
-flex: 1
-padding: 15px
+width: 20%;
 }
