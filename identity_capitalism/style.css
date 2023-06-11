@@ -1,0 +1,280 @@
+body{
+    background-color: white;
+    margin-top: 350px;
+    font-size: 24px;
+    color: black;
+}
+
+div.menu2 {
+    font: size 30px;px;
+    margin-bottom:10px;
+    font-family: 'spacemono';
+    font-style: italic;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+  }
+
+
+  h1 {
+    font-family: 'spacemono';
+    font-size: 55px;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    outline: 2px solid black;
+    }
+
+div.width1-3 {
+    width:33.333%;
+}
+
+div.w20 {
+    width:20%;
+}
+
+div.width2-3{
+    width: 66.666%;
+}
+
+div.w75 {
+    width: 75%;
+}
+
+div.w100 {
+    width: 100%;
+}
+
+div.w50 {
+    width: 50%;
+}
+
+div.w25 {
+    width: 25%;
+}
+
+div.w30 {
+    width: 30%;
+}
+
+div.w35 {
+    width: 35%;
+}
+
+div.w40 {
+    width:40%;
+}
+
+div.w45 {
+    width:45%;
+}
+
+div.w42 {
+    width: 42%;
+}
+
+div.w60 {
+    width: 60%;
+}
+
+div.w70 {
+    width: 70%;
+}
+
+div.w80 {
+    width: 80%;
+}
+
+div.bgai{
+    background-color: yellowgreen;
+}
+
+div.bguser{
+    background-color: lightskyblue;
+}
+
+@font-face {
+    font-family: spacemono;
+    src: url(SpaceMono-Regular.woff);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-Regular.woff);
+}
+
+@font-face {
+    font-family: opensans-medium;
+    src: url(OpenSans-Medium.woff);
+}
+
+div.aitxt{
+    font-family: 'spacemono';
+    text-align: left;
+    margin-right: 25px;
+}
+
+div.aitxtbolder{
+    font-family: 'spacemono';
+    text-align: left;
+    margin-right: 25px;
+    font-weight: bolder;
+}
+
+div.usertxt{
+    font-family: "opensans-medium";
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+div.left{
+    outline: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+div.right{
+    outline: 2px solid black;
+    margin-left: auto;
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+
+div.right_loading{
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hidden {display:none;}
+
+.hidden1 {display:none;}
+
+span {
+    outline: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-family: "opensans-medium";
+    text-align: left;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+
+span.rise-shake {
+    animation: jump-shaking 0.83s infinite;
+  }
+
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-5px) }
+    35% { transform: translateY(-5px) rotate(15deg) }
+    55% { transform: translateY(-5px) rotate(-15deg) }
+    65% { transform: translateY(-5px) rotate(15deg) }
+    75% { transform: translateY(-5px) rotate(-15deg) }
+    100% { transform: translateY(0) rotate(0) }
+  }
+
+
+
+  span.horizontal-shake {
+    animation: horizontal-shaking 0.35s infinite;
+  }
+
+  @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }
+
+  button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'spacemono';
+    outline: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    cursor:pointer;    
+    background-color: lightslategrey;
+    color: white;
+    font-size: 65%;
+  }
+
+  div.myDIV {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'spacemono';
+    font-weight: bold;
+    text-align: center;
+    font-size: 125%;
+  }
+
+
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left div.inner {
+  animation: slide-left 8s;
+  margin-top:0%;
+  padding-left: 150px;
+}
+
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+span.skew-shake-x {
+    animation: skew-x-shake 1.3s infinite;
+  }
+
+  @keyframes skew-x-shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+  span.constant-tilt-shake {
+    animation: tilt-shaking 0.3s infinite;
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }

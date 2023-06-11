@@ -1,52 +1,16 @@
-body{
-    background-color: rgb(255, 255, 255);
-    font-family: SpaceMonoRegular;
-    color: black;
-    font-size: 15px;
-    text-align: left;
+body {
+  height: 2000px;    
 }
-
-@font-face {
-    font-family: Evermore;
-    src: url("Evermore.woff");
+.scroll-hide {
+  height: 1300px;
+  width: 300px;
+  background-color: #005197;
+  color: #fff;
+  padding: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
 }
-
-@font-face {
-    font-family: Extraoin;
-    src: url("Extraoin\ Zhurdlyou\ Anarchy.woff");
-}
-
-@font-face {
-    font-family: SpaceMonoRegular;
-    src: url("SpaceMono-Regular.woff");
-}
-
-h1{
-    font-family: 'Extraoin';
-    color: rgb(250, 22, 22);
-    font-size: 90px;
-    text-align: center;
-}
-
-h2{
-    font-family: 'Extraoin';
-    color: rgb(250, 22, 22);
-    font-size: 40px;
-    text-align: center;
-}
-
-h3{
-    font-family: SpaceMonoRegular;
-    color: black;
-    font-size: 17px;
-    text-align: right;
-}
-
-div.container {
-display: flex;
-flex-wrap: wrap;
-}
-
-div.column { 
-background-color: white;
+.scroll-hide{
+text-align:center;
 }

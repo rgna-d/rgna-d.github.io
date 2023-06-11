@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    margin: 2px;
+    font-size: 24px;
+    color: black;
+}
+
+div.menu {
+    position: fixed;
+    font-family: 'spacemono';
+    font-size: 50px;
+    bottom: 10px;
+    left: 10px;
+}
+
+img{
+    width:100%;
+}
+
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    outline: 2px solid white;
+    }
+
+div.width1-3 {
+    width:33.333%;
+}
+
+div.width20 {
+    width:20%;
+}
+
+div.width2-3{
+    width: 66.666%;
+}
+
+div.w75 {
+    width: 75%;
+}
+
+div.w100 {
+    width: 100%;
+}
+
+div.w50 {
+    width: 50%;
+}
+
+div.w25 {
+    width: 25%;
+}
+
+div.w40 {
+    width: 40%;
+}
+
+div.w60 {
+    width: 60%;
+}
+
+div.w80 {
+    width: 80%;
+}
+
+div.bgai{
+    background-color: yellowgreen;
+}
+
+div.bguser{
+    background-color: lightskyblue;
+}
+
+div.txtblack{
+    color: black;    
+}
+
+@font-face {
+    font-family: spacemono;
+    src: url(SpaceMono-Regular.woff);
+}
+
+div.aitxt{
+    font-family: 'spacemono';
+    margin-right: 15px;
+}
+
+div.usertxt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+div.coloranimation{
+    background-color: blueviolet;
+    animation: backgroundcolor 3s linear alternate infinite;
+}
+
+@keyframes backgroundcolor {
+    0% {
+        width: 20%;       
+    }
+    100% {
+        width: 40%;
+        background-color: blue;
+         }
+}
