@@ -1,0 +1,125 @@
+body {
+    font-family: 'spacemono';
+    font-size: 24px;
+    margin: 0px;
+    background-color: black;
+}
+
+@font-face {
+    font-family: spacemono;
+    src: url(SpaceMono-Regular.woff);
+  }
+
+  @font-face {
+    font-family: extraoin;
+    src: url(Extraoin\ Zhurdlyou\ Anarchy.woff);
+  }
+
+  @font-face {
+    font-family: chaos;
+    src: url(chaos-regular.woff);
+  }
+
+  @font-face {
+    font-family: stereosans;
+    src: url(StereoSans.woff);
+  }
+
+  @font-face {
+    font-family: evermore;
+    src: url(Evermore.woff);
+  }
+  
+  * {
+      box-sizing: border-box;
+    }
+  
+    img {
+      width: 100%;
+    }
+    
+    /* Parents have to have these, but you can add additional properties to change the alignment and layout of the children */
+    
+    div.container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* These are all the children, it's where you add the widths */
+    
+    div.item {
+      font-size: 10px;
+      padding: 0px;
+      width: 25%; }
+      
+      
+    
+    /* You can change the width of one child specifically by adding another class name and then chaining the classes together. */
+    
+    div.item.text {
+      font-family: 'spacemono';
+      font-weight: lighter;
+      font-size: 45px;
+      color: black;
+      width: 25%;
+      padding: 25px;
+      background: linear-gradient(-45deg, red, maroon);
+      animation: gradient 2s ease infinite; }
+
+      div.item.white {
+        font-family: 'spacemono';
+        font-weight: lighter;
+        margin-top: 10%;
+        font-size: 25px;
+        color: white;
+        width: 25%;
+        padding: 20px;
+        background: black;
+        }
+        div.item.white:hover{
+            font-weight: lighter;
+            background: white;
+            color: black;
+        }
+        div.item.else:hover {opacity: 65%;}
+        div.item.us:hover {opacity: 0%;}
+        div.item.you:hover {opacity: 0%;}
+        div.item.text:hover {
+            background-color: rgb(79, 1, 1);
+            font-weight: bold;
+        }
+
+        div.footer {
+            position: fixed;
+            font-family: 'stereosans';
+            font-weight: 600;
+            font-style: normal;
+            font-size: 95px;
+            color: red;
+            bottom: -10px;
+            width: 100%;
+            padding-top: 20px;
+            
+        }
+
+        div.side.marquee {
+            position: fixed;
+            font-family: 'stereosans';
+            font-weight: 550;
+            font-style: normal;
+            font-size: 55px;
+            color: white;
+            right: 15px;
+            width: 50%;
+            writing-mode: vertical-rl;
+            text-orientation: sideways;            
+        }
+  
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;	}
+	50% {
+		background-position: 100% 50%;	}
+	100% {
+		background-position: 0% 50%;	}
+}

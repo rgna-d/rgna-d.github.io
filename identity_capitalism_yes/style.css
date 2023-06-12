@@ -1,0 +1,80 @@
+body {
+    font-family: 'spacemono';
+    font-size: 24px;
+    margin: 0px;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.box {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'spacemono';
+    background-color: transparent;
+    cursor:pointer;    
+    color: red;
+    font-size: 95%;
+    outline: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  
+  div.myDIV {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'spacemono';
+    font-weight: bold;
+    text-align: center;
+    font-size: 300%;
+    color: red;
+  }
+
+  div.header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-family: 'arial';
+    font-weight: 200;
+    font-size: 50px;
+    color: white;
+    padding-top: 15px;
+    background-color: red;
+   }
+
+   div.header2 {
+    position: fixed;
+    top: 550px;
+    width: 100%;
+    font-family: 'arial';
+    font-weight: 200;
+    font-size: 50px;
+    color: white;
+    padding-top: 15px;
+    background-color: red;
+   }
+
+@font-face {
+    font-family: spacemono;
+    src: url(SpaceMono-Regular.woff);
+  }
+
+  @font-face {
+    font-family: extraoin;
+    src: url(Extraoin\ Zhurdlyou\ Anarchy.woff);
+  }
